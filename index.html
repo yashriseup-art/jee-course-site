@@ -88,8 +88,10 @@
       transition: background 0.3s ease;
     }
 
-    .btn:hover {
+    .btn:hover,
+    .btn:focus {
       background-color: #219150;
+      outline: none;
     }
 
     footer {
@@ -98,3 +100,29 @@
       color: #555;
       font-size: 0.95rem;
     }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CrackJEE Now</h1>
+    <p>JEE Course for ₹200</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Course Features</h2>
+      <ul>
+        <li>Comprehensive video lectures</li>
+        <li>Practice questions with solutions</li>
+        <li>Live doubt sessions</li>
+      </ul>
+      <p class="price"><del>₹5000</del> ₹200 only!</p>
+      <button class="btn">Enroll Now</button>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 CrackJEE Now. All rights reserved.
+  </footer>
+</body>
+</html>
